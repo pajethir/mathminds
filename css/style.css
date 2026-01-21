@@ -65,6 +65,11 @@ footer {
     list-style: none;           /* pas de puces */
 }
 
+/* Enlever le soulignement */
+.nav-list a {
+    text-decoration: none;
+}
+
 /* Quand le burger est cliqué, menu apparaît */
 #menu-toggle:checked + .menu-icon + nav .nav-list {
     display: flex;              /* affiche menu vertical */
